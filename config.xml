@@ -24,4 +24,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="ios" spec="~4.5.5" />
+    <plugin name="cordova-plugin-intercom" spec="^6.1.0" />
 </widget>

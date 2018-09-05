@@ -1,0 +1,8 @@
+{
+    "Intercom": {
+        "name": "Intercom",
+        "type": "podspec",
+        "spec": "~> 5.1.0",
+        "count": 1
+    }
+}
