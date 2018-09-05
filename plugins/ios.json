@@ -8,13 +8,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.adamgeorge.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
     },
     "cordova-plugin-intercom": {
-      "PACKAGE_NAME": "com.adamgeorge.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
     },
     "phonegap-plugin-push": {
-      "PACKAGE_NAME": "com.adamgeorge.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
     }
   },
   "dependent_plugins": {}
