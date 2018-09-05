@@ -8,13 +8,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     },
     "cordova-plugin-intercom": {
-      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     },
     "phonegap-plugin-push": {
-      "PACKAGE_NAME": "com.getsidekicker.intercomissue"
+      "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     }
   },
   "dependent_plugins": {}
