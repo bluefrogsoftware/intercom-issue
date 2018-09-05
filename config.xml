@@ -8,6 +8,9 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <preference name="intercom-app-id" value="" />
+    <preference name="intercom-ios-api-key" value="" />
+    <preference name="intercom-android-api-key" value="" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
