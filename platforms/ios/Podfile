@@ -3,4 +3,5 @@ platform :ios, '8.0'
 target 'IntercomIssue' do
 	project 'IntercomIssue.xcodeproj'
 	pod 'Intercom', '~> 5.1.0'
+	pod 'FirebaseMessaging', '~> 2.0.0'
 end

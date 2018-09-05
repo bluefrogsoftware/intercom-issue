@@ -12,6 +12,9 @@
     },
     "cordova-plugin-intercom": {
       "PACKAGE_NAME": "com.adamgeorge.intercomissue"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.adamgeorge.intercomissue"
     }
   },
   "dependent_plugins": {}
