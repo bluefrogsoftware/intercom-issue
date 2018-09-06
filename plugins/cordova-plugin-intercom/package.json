@@ -1,27 +1,26 @@
 {
-  "_from": "cordova-plugin-intercom",
+  "_from": "cordova-plugin-intercom@^6.1.0",
   "_id": "cordova-plugin-intercom@6.1.0",
   "_inBundle": false,
   "_integrity": "sha1-56K19PYK5cRPQrM1bJOhK1p7op4=",
   "_location": "/cordova-plugin-intercom",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-intercom",
+    "raw": "cordova-plugin-intercom@^6.1.0",
     "name": "cordova-plugin-intercom",
     "escapedName": "cordova-plugin-intercom",
-    "rawSpec": "",
+    "rawSpec": "^6.1.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^6.1.0"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-intercom/-/cordova-plugin-intercom-6.1.0.tgz",
   "_shasum": "e7a2b5f4f60ae5c44f42b3356c93a12b5a7ba29e",
-  "_spec": "cordova-plugin-intercom",
+  "_spec": "cordova-plugin-intercom@^6.1.0",
   "_where": "/Users/asgeo1/Projects/sidekicker/intercom-issue",
   "author": {
     "name": "Intercom"

@@ -28,6 +28,28 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        var that = this;
+        setTimeout(function() {
+          that.initIntercom();
+        }, 2000);
+    },
+
+    initIntercom: function() {
+      cordova.plugins.intercom.registerIdentifiedUser({
+        userId: "staging_67",
+        email: "yogesh+sidekick4@sidekicker.com.au",
+        live_db: false
+      }, function() {
+        console.log('Registered for intercom!');
+        console.log('Attempting to register for intercom push...');
+        window.intercom.registerForPush(function() {
+          console.log('Registered for intercom push!');
+        });
+      }, function() {
+        console.error('Failed to register for intercom');
+      });
+
+      cordova.plugins.intercom.setLauncherVisibility('VISIBLE');
     },
 
     // Update DOM on a Received Event

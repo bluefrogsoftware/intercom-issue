@@ -19,12 +19,12 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="PushNotification">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
     <feature name="Intercom">
         <param name="ios-package" value="IntercomBridge" />
         <param name="onload" value="true" />
-    </feature>
-    <feature name="PushNotification">
-        <param name="ios-package" value="PushPlugin" />
     </feature>
     <name>IntercomIssue</name>
     <description>
@@ -56,4 +56,7 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="intercom-app-id" value="nmlned5c" />
+    <preference name="intercom-ios-api-key" value="ios_sdk-7d2bd0c67d91c5482b2aa73cf3683e9151f95c58" />
+    <preference name="intercom-android-api-key" value="android_sdk-3211a62cd37c117c62ef2f401f2b6e21c543108b" />
 </widget>

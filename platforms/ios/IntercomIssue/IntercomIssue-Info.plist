@@ -52,11 +52,11 @@
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Send photos in your messages to the app.</string>
     <key>UIBackgroundModes</key>
     <array>
       <string>remote-notification</string>
     </array>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Send photos in your messages to the app.</string>
   </dict>
 </plist>

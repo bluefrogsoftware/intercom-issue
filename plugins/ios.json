@@ -10,10 +10,10 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     },
-    "cordova-plugin-intercom": {
+    "phonegap-plugin-push": {
       "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     },
-    "phonegap-plugin-push": {
+    "cordova-plugin-intercom": {
       "PACKAGE_NAME": "com.getsidekicker.sidekicker.test"
     }
   },

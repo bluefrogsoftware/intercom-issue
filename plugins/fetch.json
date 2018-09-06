@@ -7,14 +7,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-intercom": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-intercom"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "phonegap-plugin-push": {
     "source": {
       "type": "registry",
@@ -25,5 +17,21 @@
       "ANDROID_SUPPORT_V13_VERSION": "27.+",
       "FCM_VERSION": "11.6.2"
     }
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "es6-promise-plugin@^4.1.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-intercom": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-intercom@^6.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

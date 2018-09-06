@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -13,13 +12,13 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		48981C8588F44E1EAE0659CC /* AppDelegate+IntercomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C480C84354D54B1E83DE3 /* AppDelegate+IntercomPush.m */; };
 		51E4EA3FC8264BAAB99D3256 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF4865AA542C9B988E3FE /* AppDelegate+notification.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		8073731F85FF4B23BA720E50 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EF195316304B97916A3B88 /* PushKit.framework */; };
 		92459B1D5647A3DA0DD7871D /* libPods-IntercomIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 272E8F9FB75A897501EEE825 /* libPods-IntercomIssue.a */; };
-		DD58708084C34A5C85FC407E /* IntercomBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A3740F6D34102871580A0 /* IntercomBridge.m */; };
 		F464577F9B9D41209EE03A53 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 422276465AA1405CB1858ABA /* PushPlugin.m */; };
+		B077FCB577364D449729F14B /* IntercomBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B49516A974E648B8B34DB36E /* IntercomBridge.m */; };
+		0F1F1960D7B74401B2E8BEDA /* AppDelegate+IntercomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764D0708F4444A9963BFABE /* AppDelegate+IntercomPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IntercomIssue/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		18A6AFB458B8468389332231 /* IntercomBridge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IntercomBridge.h; path = "cordova-plugin-intercom/IntercomBridge.h"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* IntercomIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercomIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,18 +63,19 @@
 		32CA4F630368D1EE00C91783 /* IntercomIssue-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IntercomIssue-Prefix.pch"; sourceTree = "<group>"; };
 		38EF195316304B97916A3B88 /* PushKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		422276465AA1405CB1858ABA /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
-		481C480C84354D54B1E83DE3 /* AppDelegate+IntercomPush.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+IntercomPush.m"; path = "cordova-plugin-intercom/AppDelegate+IntercomPush.m"; sourceTree = "<group>"; };
-		5CD6878D1A344B6D831CD958 /* AppDelegate+IntercomPush.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+IntercomPush.h"; path = "cordova-plugin-intercom/AppDelegate+IntercomPush.h"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = IntercomIssue/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* IntercomIssue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "IntercomIssue-Info.plist"; path = "IntercomIssue/IntercomIssue-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		9355D426DD3A416BA0605C5C /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
 		DC446A290A1140559F01AB65 /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
-		DE6A3740F6D34102871580A0 /* IntercomBridge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IntercomBridge.m; path = "cordova-plugin-intercom/IntercomBridge.m"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		EE9BF4865AA542C9B988E3FE /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = IntercomIssue/config.xml; sourceTree = "<group>"; };
+		B49516A974E648B8B34DB36E /* IntercomBridge.m */ = {isa = PBXFileReference; name = "IntercomBridge.m"; path = "cordova-plugin-intercom/IntercomBridge.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5764D0708F4444A9963BFABE /* AppDelegate+IntercomPush.m */ = {isa = PBXFileReference; name = "AppDelegate+IntercomPush.m"; path = "cordova-plugin-intercom/AppDelegate+IntercomPush.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A79168B7244A4C5587092A2B /* IntercomBridge.h */ = {isa = PBXFileReference; name = "IntercomBridge.h"; path = "cordova-plugin-intercom/IntercomBridge.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		562E6BED500C4A218DE869F3 /* AppDelegate+IntercomPush.h */ = {isa = PBXFileReference; name = "AppDelegate+IntercomPush.h"; path = "cordova-plugin-intercom/AppDelegate+IntercomPush.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,14 +185,14 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				DE6A3740F6D34102871580A0 /* IntercomBridge.m */,
-				481C480C84354D54B1E83DE3 /* AppDelegate+IntercomPush.m */,
-				18A6AFB458B8468389332231 /* IntercomBridge.h */,
-				5CD6878D1A344B6D831CD958 /* AppDelegate+IntercomPush.h */,
 				EE9BF4865AA542C9B988E3FE /* AppDelegate+notification.m */,
 				422276465AA1405CB1858ABA /* PushPlugin.m */,
 				9355D426DD3A416BA0605C5C /* AppDelegate+notification.h */,
 				DC446A290A1140559F01AB65 /* PushPlugin.h */,
+				B49516A974E648B8B34DB36E /* IntercomBridge.m */,
+				5764D0708F4444A9963BFABE /* AppDelegate+IntercomPush.m */,
+				A79168B7244A4C5587092A2B /* IntercomBridge.h */,
+				562E6BED500C4A218DE869F3 /* AppDelegate+IntercomPush.h */,
 			);
 			name = Plugins;
 			path = IntercomIssue/Plugins;
@@ -384,10 +383,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				DD58708084C34A5C85FC407E /* IntercomBridge.m in Sources */,
-				48981C8588F44E1EAE0659CC /* AppDelegate+IntercomPush.m in Sources */,
 				51E4EA3FC8264BAAB99D3256 /* AppDelegate+notification.m in Sources */,
 				F464577F9B9D41209EE03A53 /* PushPlugin.m in Sources */,
+				B077FCB577364D449729F14B /* IntercomBridge.m in Sources */,
+				0F1F1960D7B74401B2E8BEDA /* AppDelegate+IntercomPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
